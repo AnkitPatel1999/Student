@@ -1,0 +1,28 @@
+
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+ .project-card{border-radius:0;background:#fafafa;border:1px solid rgba(0,0,0,0.025);position:relative;height:100%}
+.project-card:hover .link-mask{visibility:visible;background:rgba(41,41,41,0.4)}
+.project-card:hover .link-mask-text{display:block}
+.project-card .card-img{border-radius:0}
+.project-card .card-title{font-size:1.125rem}
+.project-card .card-img-hol der{max-height:200px;overflow:hidden;vertical-align:middle}
+.project-card .link-mask{position:absolute;left:0;top:0;width:100%;height:100%;visibility:hidden;transition:all 0.4s ease-in-out}
+
+@media (prefers-reduced-motion: reduce){.project-card .link-mask{transition:none}}
+.project-card .link-mask .link-mask-link{position:absolute;left:0;top:0;width:100%;height:100%;display:block}
+.project-card .link-mask-text{position:absolute;left:0;top:0;width:100%;height:100%;text-align:center;vertical-align:middle;color:#fff;display:none}
+.project-card .link-mask-text .btn{top:50%;margin-top:-20px;position:relative} 
+
+.card{
+    flex-direction: row !important;
+}
+
+li{
+    font-size: 12px;
+}
