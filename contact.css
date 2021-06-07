@@ -27,7 +27,6 @@ hr {
 }
 
 .form {
-    height: 45vh; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,6 +46,7 @@ input[type="text"], textarea {
     -moz-border-radius: 5px;
     border-radius: 5px;
     resize: none;
+    margin: 10px auto;
 }
 textarea {
     height: 10vh;
