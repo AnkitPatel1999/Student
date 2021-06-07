@@ -71,3 +71,24 @@ button {
     width: 81px;
     align-self: center;
 }
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 0 0.5rem !important;
+    }
+    .container>h1 {
+        font-size: 1.7em;
+        line-height: 1em;
+        margin: 0 0 15px 0;
+        padding: 0;
+    }
+    .text {
+        margin: 50px auto
+    }
+    hr{
+        width: 60%;
+    }
+}
