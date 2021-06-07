@@ -220,7 +220,7 @@ img {
 
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
-  height: 100vh;
+  height: calc( 100vh - 5rem);
   color: #fff; }
   #header-home .header-content {
     text-align: center;
@@ -407,7 +407,7 @@ img {
     justify-content: space-between;
     height: 5rem;
     align-items: center; }
-    #main-footer .footer-content .social .fab {
+    #main-footer .footer-content .social a .fab {
       margin-right: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
@@ -415,13 +415,34 @@ img {
       width: 20px;
       line-height: 20px;
       text-align: center;
+      color:#ffffff;
       padding: 0.5rem; }
-      #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+      .social a{
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        margin: auto 10px;
+      }
+      .social a .fab:hover {
+        background: #ffbc00;
+        
+      }
+      .social a:hover{
+        color: #ffbc00;
+      }
+      .social{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+    .sm{
+        font-size: 30px;
+        margin: auto;
+    }
 
 @media (max-width: 800px) {
   #header-home {
-    height: 30rem; }
+     }
     #header-home .header-content {
       padding-top: 5rem; } }
 
@@ -432,11 +453,10 @@ img {
     #main-nav li {
       padding: 1rem; }
   #header-home {
-    height: 10rem;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%; }
     #header-home .header-content {
-      display: none; }
+      }
   #header-inner {
     height: 10rem; }
   #home-a .specials,
@@ -471,7 +491,7 @@ img {
   #contact-c h1 {
     font-size: 2rem; }
   #main-footer {
-    height: 7rem; }
+    height: 320px; }
     #main-footer .footer-content {
       flex-direction: column;
       padding: 1rem;
@@ -484,3 +504,16 @@ img {
 @media (max-height: 330px) {
   #header-home .header-content h1 {
     font-size: 2rem; } }
+
+    @media (max-width: 768px) {
+
+      .social{
+          flex-direction: column;
+      }
+      .social a{
+          margin: 6px 10px;
+      }
+      .sm{
+        font-size: 20px;
+      }
+    }

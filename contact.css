@@ -72,6 +72,16 @@ button {
     align-self: center;
 }
 
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.sm{
+    font-size: 30px;
+    margin: auto;
+}
+
 @media (max-width: 768px) {
 
     .container {

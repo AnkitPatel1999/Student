@@ -26,3 +26,12 @@
 li{
     font-size: 12px;
 }
+#main-footer .footer-content .social a .fab{
+    box-sizing: content-box !important;
+}
+
+.social {
+    width: 66%;
+}
+
+
