@@ -433,7 +433,7 @@ img {
       .social{
         display: flex;
         justify-content: space-between;
-        width: 60%;
+        width: 80%;
     }
     .sm{
         font-size: 30px;
