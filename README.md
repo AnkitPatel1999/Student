@@ -1,11 +1,44 @@
-# Student
-for the students 
+![Project Image](hacktoberfest.png)
 
-** Project's Live Link : http://patelankit.me/ **
+#  Students are Welcome
 
-1. Fork this repo.
-2. Star this repo.
-3. Get an issue assigned.
-3. Work on the issue.
-4. Commit the code.
-5. Make a pull request.
+> This repository is for students only.
+
+---
+
+### How to contribute 
+
+-  Fork this repository.
+-  Star this repository.
+-  Get an issue assigned.
+-  Work on the issue.
+-  Commit the code.
+-  Make a pull request.
+
+---
+
+## Getting started !
+
+#### How to clone 
+
+```
+    git clone https://github.com/YOUR_NAME/Student.git
+```
+#### Navigate to student directory 
+
+```
+    cd Student
+```
+#### Add your contribution, commit and push 
+
+```
+    git add .
+    git commit -m "Short description about your contribution"
+    git push 
+```
+
+---
+
+## References
+- [Project's Live Link](http://patelankit.me/)
+
