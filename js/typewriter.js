@@ -36,6 +36,7 @@ class TypeWriter {
 
     // If word is complete
     if (!this.isDeleting && this.txt === fullTxt) {
+      console.log(this.txt)
       // Make pause at end
       typeSpeed = this.wait;
       // Set delete to true
