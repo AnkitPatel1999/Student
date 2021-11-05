@@ -35,6 +35,8 @@
     git add .
     git commit -m "Short description about your contribution"
     git push 
+    pull request 
+    create pull request
 ```
 
 ---
